@@ -1,0 +1,146 @@
+*{
+  box-sizing: border-box;
+}
+
+  html,body{
+  background-color: #D8BFD8;
+  padding:0;
+  margin:0;
+}
+
+  html a,
+  body a {
+  text-decoration: none;
+  font-family: 'Abel', sans-serif;
+}
+
+  .button {
+  padding: 10px 100px;
+  box-shadow: 7px 5px 7px rgba(192, 192, 192, 0.3);
+}
+
+  body {
+  background-color: #D8BFD8;
+}
+
+  body header {
+  width: 100%;
+  height: auto;
+  font-family: 'Abel', sans-serif;
+}
+
+  header .header{
+  margin: 30px 0px 0px 70px;
+}
+
+  header .header .head_top .head_left {
+  display: inline-block;
+  width: 25%;
+}
+
+  header .header .head_top .head_right {
+  display: inline-block;
+}
+
+  header .header .head_top .head_right .button {
+  position: relative;
+  margin-right: 20px;
+  left: 300px;
+  border: 1px solid #555555;
+  border-radius: 7px;
+  background-color: gray;
+  color: black;
+}
+
+  header .header .head_top .head_right .button:hover {
+  background-color: #D8BFD8;
+  transition: background-color 0.5s, height 1s;
+}
+
+  hr {
+  margin: 10px 20px;
+}
+
+  section {
+  height: auto;
+  font-family: 'Abel', sans-serif;
+}
+
+  section .menu_but {
+  margin: 30px 50px 0 70px;
+}
+
+  section .menu_but .head_left {
+  width: 300px;
+  height: auto;
+  float:left;
+}
+   section .menu_but .head_left .button {
+  display: block;
+  width: auto;
+  margin-bottom: 10px;
+  border: 1px solid #555555;
+  border-radius: 10px;
+  background-color: #808080;
+  color: black;
+  text-align: center;
+}
+
+  section .menu_but .head_left .button:hover {
+  background-color: #D8BFD8;
+  transition: background-color 0.5s, height 1s;
+}
+
+  section .menu_but .head_right{
+  display:inline-block;
+  margin-left: 50px;
+}
+
+  section .menu_but .head_right .tabs .tab {
+  display: inline-block;
+  margin-left:0px;
+  color: black;
+  padding: 10px 10px;
+  background-color: #808080;
+  border-radius: 4px;
+  border-bottom: 0;
+  border: 1px solid #3b3b3b;
+}
+  section .menu_but .head_right .tabs .tab:hover {
+  background-color: #D8BFD8;
+  transition: background-color 0.5s, height 1s;
+}
+
+  section .menu_but .head_right .block_1 {
+  width: 960px;
+  height: 200px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+  section .menu_but .head_right .block_1 .tabl {
+  width: 900px;
+  height:70%;
+  margin: 30px;
+  background-color: #808080;
+}
+
+  section .menu_but .head_right .block_1 .tabl tr td {
+  text-align: center;
+}
+
+  footer {
+  font-family: 'Abel', sans-serif;
+  height: auto;
+  margin: 20px 30px 20px 30px;
+}
+
+  footer .foot_1 {
+  display: inline-block;
+}
+
+  footer .foot_2 {
+  position: relative;
+  display: inline-block;
+  float:right;
+}
